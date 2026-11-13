@@ -1,0 +1,21 @@
+# packages
+node_modules/
+
+# the hub's own records and attachments when run on this computer: never commit these
+data/
+
+# test output
+test/out/
+
+# anything dropped in for checking: salary sheets, registers, exports
+*.xlsx
+*.xls
+*.csv
+*.pdf
+!test/fixtures/**
+
+# old build fragments kept on the author's machine
+_archive/
+
+.DS_Store
+*.log

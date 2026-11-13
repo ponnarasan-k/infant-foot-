@@ -1,0 +1,24 @@
+{
+  "name": "operations-hub",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Operations hub for a small device manufacturer: daily follow-up, purchase, stock, production, vendors, NPD projects, compliance dates, expenses and payslips.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node local/server.js",
+    "start:sample": "node local/server.js --sample",
+    "test": "node test/hub.js && node test/local.js",
+    "test:hub": "node test/hub.js",
+    "test:local": "node test/local.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.1",
+    "jszip": "^3.10.1",
+    "pdfjs-dist": "^3.11.174",
+    "pptxgenjs": "^3.12.0",
+    "xlsx": "^0.18.5"
+  }
+}
